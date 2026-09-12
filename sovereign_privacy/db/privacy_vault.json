@@ -2424,6 +2424,12 @@
       "timestamp": "2026-09-12T12:36:45.511440+00:00",
       "action_type": "EMAIL_DISPATCHED",
       "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@airindia.in) for 'airindia.in'. Verification Token: 915d73b727e8bb213db00e13"
+    },
+    {
+      "id": "2c382fc1-2592-4e11-b9cc-b9fff2ccdb1d",
+      "timestamp": "2026-09-12T13:27:39.452920+00:00",
+      "action_type": "ZK_CREDENTIAL_ISSUED",
+      "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: 0d053bc54481b3aa...)"
     }
   ],
   "audit_blocks": [
@@ -5165,6 +5171,17 @@
       },
       "previous_hash": "fc0f08db207e681b6399c9ea47e36134942f9b1394215ce7468beb5db9c79f56",
       "hash": "34b52b1308317ef4ee75bebe1244a5b30bc1b478845146f94f1976f3323af776"
+    },
+    {
+      "index": 249,
+      "timestamp": "2026-09-12T13:27:39.452920+00:00",
+      "action": "ZK_CREDENTIAL_ISSUED",
+      "data": {
+        "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: 0d053bc54481b3aa...)",
+        "timestamp": "2026-09-12T13:27:39.452920+00:00"
+      },
+      "previous_hash": "34b52b1308317ef4ee75bebe1244a5b30bc1b478845146f94f1976f3323af776",
+      "hash": "67ecb1355ad8f926c0c79848a9d0bef9d73047217c3cc52fa2b12a9c703a81b5"
     }
   ]
 }

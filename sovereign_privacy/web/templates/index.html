@@ -87,19 +87,22 @@
                 </nav>
             </div>
 
-            <!-- Agent Status Card -->
-            <div class="glass-panel p-3.5 rounded-xl border border-slate-800 text-xs">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-semibold text-slate-300">DPDP Protection Agent</span>
+            <!-- Agent Autonomous Status Card -->
+            <div class="glass-panel p-3.5 rounded-xl border border-slate-800 text-xs space-y-2">
+                <div class="flex items-center justify-between">
+                    <span class="font-bold text-amber-400 flex items-center space-x-1">
+                        <i data-lucide="bot" class="w-4 h-4"></i>
+                        <span>Agentic AI Engine</span>
+                    </span>
                     <span class="flex h-2 w-2 relative">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                     </span>
                 </div>
-                <p class="text-slate-400 mb-3">Primary target: <span class="text-amber-300 font-mono text-[11px]" x-text="profile.email"></span></p>
-                <button @click="runAgentCycle()" :disabled="loading" class="w-full bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-semibold py-1.5 px-3 rounded-lg flex items-center justify-center space-x-2 transition shadow">
-                    <i data-lucide="zap" class="w-3.5 h-3.5"></i>
-                    <span>Execute Autonomous Cycle</span>
+                <p class="text-slate-400">Target: <span class="text-white font-mono text-[11px]" x-text="profile.email"></span></p>
+                <button @click="runAgenticAI()" :disabled="loading" class="w-full bg-gradient-to-r from-purple-600 via-indigo-600 to-amber-600 hover:from-purple-500 hover:to-amber-500 text-white font-bold py-2 px-3 rounded-lg flex items-center justify-center space-x-2 transition shadow-lg shadow-purple-600/30">
+                    <i data-lucide="sparkles" class="w-4 h-4" :class="loading ? 'animate-spin' : ''"></i>
+                    <span>Launch Agentic AI Web Search & Dispatch</span>
                 </button>
             </div>
         </aside>
@@ -664,6 +667,16 @@
                 async verifyAuditChain() {
                     const res = await fetch('/api/audit/verify');
                     this.auditStatus = await res.json();
+                },
+
+                async runAgenticAI() {
+                    this.loading = true;
+                    try {
+                        await fetch('/api/agentic-ai/run', { method: 'POST' });
+                        await this.loadAllData();
+                    } finally {
+                        this.loading = false;
+                    }
                 },
 
                 async runAgentCycle() {

@@ -273,6 +273,13 @@ async def sanitize_doc(file: UploadFile = File(...)):
     _, summary = DocumentSanitizer.sanitize_document(file.filename, contents)
     return summary
 
+from sovereign_privacy.core.agentic_ai import AgenticAIAgent
+
+@app.post("/api/agentic-ai/run")
+async def run_agentic_ai():
+    agentic_ai = AgenticAIAgent(storage)
+    return await agentic_ai.execute_autonomous_web_agent_loop()
+
 @app.post("/api/agent/run-cycle")
 async def run_agent_cycle():
     return orchestrator.execute_autonomous_defense_cycle()
