@@ -274,9 +274,14 @@
                                         </div>
                                         <p class="text-xs text-slate-400" x-text="leak.description"></p>
                                     </div>
-                                    <button @click="autoGenerateRTBFForDomain(leak.domain)" class="bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 border border-rose-500/30 px-3 py-1.5 rounded-lg text-xs font-semibold transition">
-                                        Demand Erasure
-                                    </button>
+                                    <div class="flex items-center space-x-2">
+                                        <button @click="autoGenerateRTBFForDomain(leak.domain)" class="bg-amber-600/20 hover:bg-amber-600/30 text-amber-400 border border-amber-500/30 px-2.5 py-1.5 rounded-lg text-xs font-semibold transition">
+                                            Demand Erasure
+                                        </button>
+                                        <button @click="deleteLeak(leak.id)" class="bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 border border-rose-500/30 px-2.5 py-1.5 rounded-lg text-xs font-semibold transition">
+                                            Remove
+                                        </button>
+                                    </div>
                                 </div>
                             </template>
                         </div>
@@ -366,9 +371,14 @@
                                                   }" x-text="leak.severity"></span>
                                         </td>
                                         <td class="p-3">
-                                            <button @click="autoGenerateRTBFForDomain(leak.domain)" class="bg-amber-600 hover:bg-amber-500 text-white text-xs px-3 py-1.5 rounded-lg transition font-semibold">
-                                                Demand DPDP Removal
-                                            </button>
+                                            <div class="flex items-center space-x-2">
+                                                <button @click="autoGenerateRTBFForDomain(leak.domain)" class="bg-amber-600 hover:bg-amber-500 text-white text-xs px-3 py-1.5 rounded-lg transition font-semibold">
+                                                    Demand DPDP Removal
+                                                </button>
+                                                <button @click="deleteLeak(leak.id)" class="bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 border border-rose-500/30 px-3 py-1.5 rounded-lg text-xs font-semibold transition">
+                                                    Remove
+                                                </button>
+                                            </div>
                                         </td>
                                     </tr>
                                 </template>
@@ -695,6 +705,11 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(this.profile)
                     });
+                    await this.loadAllData();
+                },
+
+                async deleteLeak(id) {
+                    await fetch(`/api/leaks/delete/${id}`, { method: 'POST' });
                     await this.loadAllData();
                 },
 

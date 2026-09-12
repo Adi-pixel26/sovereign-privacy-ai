@@ -122,6 +122,24 @@ async def resolve_leak(leak_id: str):
         raise HTTPException(status_code=404, detail="Leak not found")
     return storage.get_leaks()
 
+@app.delete("/api/leaks/{leak_id}")
+@app.post("/api/leaks/delete/{leak_id}")
+async def delete_leak(leak_id: str):
+    res = storage.delete_leak(leak_id)
+    if not res:
+        raise HTTPException(status_code=404, detail="Leak not found")
+    leaks = storage.get_leaks()
+    score, rating = orchestrator.leak_monitor.calculate_privacy_health(leaks)
+    return {
+        "status": "DELETED",
+        "leak_id": leak_id,
+        "privacy_health_score": score,
+        "rating": rating,
+        "total_leaks": len(leaks),
+        "unresolved_leaks": len([l for l in leaks if l.get("status") == "UNRESOLVED"]),
+        "leaks": leaks
+    }
+
 @app.post("/api/leaks/clear-all")
 async def clear_all_leaks():
     raw = storage._load_raw()

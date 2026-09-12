@@ -211,6 +211,16 @@ class Storage:
                 return leak
         return None
 
+    def delete_leak(self, leak_id: str) -> bool:
+        data = self._load_raw()
+        initial_len = len(data.get("leaks", []))
+        data["leaks"] = [l for l in data.get("leaks", []) if l.get("id") != leak_id]
+        if len(data["leaks"]) < initial_len:
+            self._save_raw(data)
+            self.log_agent_action("LEAK_DELETED", f"Deleted leak entry {leak_id}")
+            return True
+        return False
+
     # --- RTBF Legal Requests ---
     def get_rtbf_requests(self) -> List[Dict[str, Any]]:
         data = self._load_raw()

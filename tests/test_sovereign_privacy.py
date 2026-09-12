@@ -79,3 +79,15 @@ def test_fastapi_rest_endpoints():
     r_zk = client.post("/api/zk/credential?claim_attribute=AgeOver18&claim_value=TRUE")
     assert r_zk.status_code == 200
     assert "commitment_hash" in r_zk.json()
+
+def test_delete_leak_endpoint():
+    client = TestClient(app)
+    # Get current leaks
+    r_leaks = client.get("/api/leaks")
+    leaks = r_leaks.json().get("leaks", [])
+    if leaks:
+        target_id = leaks[0]["id"]
+        r_del = client.post(f"/api/leaks/delete/{target_id}")
+        assert r_del.status_code == 200
+        assert r_del.json().get("status") == "DELETED"
+
