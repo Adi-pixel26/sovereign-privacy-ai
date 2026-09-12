@@ -67,29 +67,26 @@ class AgenticAIWebSearcher:
 
         return results
 
+from sovereign_privacy.core.free_ai_engine import FreeAIModelEngine
+
 class AgenticAIAgent:
-    """Autonomous Agentic AI privacy protection decision loop."""
+    """Autonomous Agentic AI privacy protection decision loop powered by Free AI Models."""
     def __init__(self, storage: Optional[Storage] = None):
         self.storage = storage or Storage()
         self.web_searcher = AgenticAIWebSearcher()
         self.rtbf_agent = RTBFAgent(self.storage)
         self.pii_recognizer = PIIRecognizer()
+        self.free_ai_engine = FreeAIModelEngine()
 
     async def execute_autonomous_web_agent_loop(self) -> Dict[str, Any]:
-        """
-        Executes autonomous Agentic AI cycle:
-        1. Agent searches live web endpoints for monitored target emails/phone/UPI.
-        2. Agent parses live responses and identifies breach risks.
-        3. Agent autonomously constructs DPDP Act 2023 / GDPR legal erasure notices.
-        4. Agent automatically dispatches notices to company DPOs.
-        """
         profile = self.storage.get_profile()
         target_email = profile.get("email", "adithyalinga13@gmail.com")
+        user_name = profile.get("full_name", "Adithya Linga")
         jurisdiction = profile.get("jurisdiction", "DPDP")
 
         self.storage.log_agent_action(
-            "AGENTIC_AI_START",
-            f"Agentic AI autonomous agent launched. Target: {target_email}. Jurisdiction: {jurisdiction}."
+            "FREE_AI_AGENTIC_START",
+            f"Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: {target_email} ({jurisdiction})."
         )
 
         # 1. Agentic Live Web Search
@@ -98,43 +95,47 @@ class AgenticAIAgent:
         auto_dispatched_count = 0
         dispatched_notices = []
 
-        # 2. Autonomous Legal Dispatch Loop
+        # 2. Autonomous Free AI Model Reasoning & Legal Dispatch
         for finding in live_findings:
             domain = finding.get("domain", "target-domain.com")
             title = finding.get("title", "Web Exposure")
             severity = finding.get("severity", "HIGH")
 
-            # Store finding in database
+            # Free AI Model Agentic Reasoning
+            ai_reasoning = await self.free_ai_engine.generate_agentic_reasoning(
+                prompt=f"Evaluate risk for breach '{title}' on domain '{domain}' for user '{user_name}' under {jurisdiction}.",
+                system_instruction="You are an autonomous privacy protection AI agent."
+            )
+
             leak_record = {
-                "title": f"AGENTIC AI DISCOVERY: {title}",
+                "title": f"FREE AI MODEL DISCOVERY: {title}",
                 "domain": domain,
                 "exposed_target": target_email,
                 "breach_date": finding.get("breach_date"),
                 "detected_at": datetime.now(timezone.utc).isoformat(),
                 "data_classes": finding.get("data_classes"),
                 "severity": severity,
-                "description": finding.get("description"),
+                "description": f"{finding.get('description')} | AI Reasoning: {ai_reasoning[:120]}",
                 "status": "UNRESOLVED"
             }
             self.storage.add_leak(leak_record)
 
-            # Auto-construct legal erasure demand
             contact_email = f"privacy@{domain}" if "@" not in domain else domain
             req = self.rtbf_agent.create_request(
                 target_entity=domain,
                 target_contact=contact_email,
                 jurisdiction=jurisdiction,
-                custom_notes=f"AGENTIC AI AUTONOMOUS DISPATCH: Generated following live web discovery of {severity} exposure."
+                custom_notes=f"FREE AI MODEL DISPATCH: {ai_reasoning[:100]}"
             )
 
-            # Auto-dispatch email notice
             dispatched = self.rtbf_agent.dispatch_request(req["id"])
             if dispatched:
                 dispatched_notices.append(dispatched)
                 auto_dispatched_count += 1
 
         summary = {
-            "agent_type": "Agentic AI Autonomous Web Protection Agent",
+            "agent_type": "Free AI Model Autonomous Agentic Protection Engine",
+            "ai_models_used": ["HuggingFace Free Inference (Mistral-7B)", "Ollama Local LLM", "Free Agentic Synthesizer"],
             "target_monitored": target_email,
             "live_web_sources_scraped": len(live_findings) + 15,
             "live_breaches_discovered": len(live_findings),
@@ -144,8 +145,8 @@ class AgenticAIAgent:
         }
 
         self.storage.log_agent_action(
-            "AGENTIC_AI_COMPLETE",
-            f"Agentic AI autonomous cycle completed. Dispatched {auto_dispatched_count} legal erasure notices."
+            "FREE_AI_AGENTIC_COMPLETE",
+            f"Free AI Model Agentic cycle completed. Evaluated threats & dispatched {auto_dispatched_count} legal erasure notices."
         )
 
         return summary

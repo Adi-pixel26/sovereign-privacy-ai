@@ -2430,6 +2430,12 @@
       "timestamp": "2026-09-12T13:27:39.452920+00:00",
       "action_type": "ZK_CREDENTIAL_ISSUED",
       "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: 0d053bc54481b3aa...)"
+    },
+    {
+      "id": "2bc4bc8d-5953-48f7-8415-2f80296af0b2",
+      "timestamp": "2026-09-12T13:34:56.218857+00:00",
+      "action_type": "ZK_CREDENTIAL_ISSUED",
+      "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: cae7fcb2c82dbeaf...)"
     }
   ],
   "audit_blocks": [
@@ -5182,6 +5188,17 @@
       },
       "previous_hash": "34b52b1308317ef4ee75bebe1244a5b30bc1b478845146f94f1976f3323af776",
       "hash": "67ecb1355ad8f926c0c79848a9d0bef9d73047217c3cc52fa2b12a9c703a81b5"
+    },
+    {
+      "index": 250,
+      "timestamp": "2026-09-12T13:34:56.218857+00:00",
+      "action": "ZK_CREDENTIAL_ISSUED",
+      "data": {
+        "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: cae7fcb2c82dbeaf...)",
+        "timestamp": "2026-09-12T13:34:56.218857+00:00"
+      },
+      "previous_hash": "67ecb1355ad8f926c0c79848a9d0bef9d73047217c3cc52fa2b12a9c703a81b5",
+      "hash": "dd4ec26ed8ccb8c733b0d314466625052a1023fefa56a798b6f63cb18358f6ac"
     }
   ]
 }
