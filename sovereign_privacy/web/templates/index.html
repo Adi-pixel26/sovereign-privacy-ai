@@ -122,9 +122,9 @@
                 </div>
 
                 <div class="flex items-center space-x-3">
-                    <button @click="resolveAllLeaks()" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white px-4 py-2 rounded-xl text-sm font-semibold flex items-center space-x-2 transition shadow-lg shadow-emerald-600/20">
-                        <i data-lucide="shield-check" class="w-4 h-4"></i>
-                        <span>Mark Resolved & Boost Score to 100</span>
+                    <button @click="clearAllLeaks()" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white px-4 py-2 rounded-xl text-sm font-semibold flex items-center space-x-2 transition shadow-lg shadow-emerald-600/20">
+                        <i data-lucide="trash-2" class="w-4 h-4"></i>
+                        <span>Clear Old History & Boost Score to 100</span>
                     </button>
                     <button @click="triggerScan()" class="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-white px-4 py-2 rounded-xl text-sm font-semibold flex items-center space-x-2 transition shadow-lg shadow-amber-600/20">
                         <i data-lucide="refresh-cw" class="w-4 h-4" :class="loading ? 'animate-spin' : ''"></i>
@@ -644,10 +644,10 @@
                     }
                 },
 
-                async resolveAllLeaks() {
+                async clearAllLeaks() {
                     this.loading = true;
                     try {
-                        await fetch('/api/leaks/resolve-all', { method: 'POST' });
+                        await fetch('/api/leaks/clear-all', { method: 'POST' });
                         await this.loadAllData();
                     } finally {
                         this.loading = false;

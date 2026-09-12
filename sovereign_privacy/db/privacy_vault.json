@@ -1,7 +1,7 @@
 {
   "profile": {
-    "full_name": "Regan Desouza",
-    "email": "rachanadesouza79@gmail.com",
+    "full_name": "Moturi Venkatesh",
+    "email": "mvenky1208@gmail.com",
     "secondary_emails": [
       "adithya.dev@techcorp.in"
     ],
@@ -1388,6 +1388,468 @@
       "description": "137M user accounts breached exposing salted bcrypt password hashes.",
       "status": "RESOLVED",
       "id": "d1627849-d439-42fd-8b07-98a712dc818b"
+    },
+    {
+      "title": "FREE AI MODEL DISCOVERY: Credential Hash Leak Feed",
+      "domain": "pwnedpasswords.api",
+      "exposed_target": "rachanadesouza79@gmail.com",
+      "breach_date": "2026-09-12",
+      "detected_at": "2026-09-12T13:41:44.113284+00:00",
+      "data_classes": [
+        "Hashed Passwords",
+        "Email Identifiers"
+      ],
+      "severity": "HIGH",
+      "description": "LIVE AGENT SEARCH: Match found in public credential hash range index. | AI Reasoning: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach under Section 12 & 13 of",
+      "status": "RESOLVED",
+      "id": "a2e941b1-d649-42f3-a9d6-7cf1ab96849a"
+    },
+    {
+      "title": "PhonePe Payment Merchant Dump 2025",
+      "domain": "phonepe.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-11-05",
+      "detected_at": "2026-09-12T13:43:54.587785+00:00",
+      "data_classes": [
+        "Emails",
+        "UPI VPAs",
+        "Merchant Bank Accounts",
+        "Phone Numbers (+91)"
+      ],
+      "severity": "CRITICAL",
+      "description": "Exposed cloud database containing payment merchant transactions and merchant VPA handles.",
+      "status": "RESOLVED",
+      "id": "aa671c08-cdec-4503-986f-df1bf4443c87"
+    },
+    {
+      "title": "Paytm Merchant & Wallet Leak",
+      "domain": "paytm.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-12-14",
+      "detected_at": "2026-09-12T13:43:54.643338+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "Wallet Balances",
+        "KYC Hashes"
+      ],
+      "severity": "CRITICAL",
+      "description": "SQL injection vulnerability exposed wallet transaction metadata.",
+      "status": "RESOLVED",
+      "id": "f879515c-9488-4ffe-8763-316e8ba88489"
+    },
+    {
+      "title": "CRED Premium Member Financial Leak",
+      "domain": "cred.club",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2026-02-18",
+      "detected_at": "2026-09-12T13:43:54.726676+00:00",
+      "data_classes": [
+        "Emails",
+        "Credit Card Masked Numbers",
+        "CIBIL Credit Scores",
+        "Phone Numbers"
+      ],
+      "severity": "CRITICAL",
+      "description": "Unsecured API endpoint exposed credit card statement analysis metadata.",
+      "status": "RESOLVED",
+      "id": "18238a3e-cde8-468c-80b9-fe3bde4b694b"
+    },
+    {
+      "title": "PolicyBazaar Insurance Query Exposure",
+      "domain": "policybazaar.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-07-22",
+      "detected_at": "2026-09-12T13:43:54.817423+00:00",
+      "data_classes": [
+        "Emails",
+        "Vehicle Registration Numbers",
+        "Health Policies",
+        "PAN Cards"
+      ],
+      "severity": "HIGH",
+      "description": "Exposed cloud storage bucket containing insurance quotation requests.",
+      "status": "RESOLVED",
+      "id": "5628d057-4f86-49a8-bcea-c16e63ca8279"
+    },
+    {
+      "title": "Swiggy Delivery Address & Order Dump",
+      "domain": "swiggy.in",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-09-12",
+      "detected_at": "2026-09-12T13:43:54.900861+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "GPS Locations",
+        "Home Addresses"
+      ],
+      "severity": "HIGH",
+      "description": "Scraped order dataset exposing customer delivery locations across Indian metros.",
+      "status": "RESOLVED",
+      "id": "014cc8e7-5b39-4843-bef7-0e00ab6eed2c"
+    },
+    {
+      "title": "Zomato Customer Order History Leak",
+      "domain": "zomato.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-06-19",
+      "detected_at": "2026-09-12T13:43:54.995178+00:00",
+      "data_classes": [
+        "Emails",
+        "Hashed Passwords",
+        "Phone Numbers",
+        "Order Records"
+      ],
+      "severity": "HIGH",
+      "description": "Database archive posted on cybercrime forum containing customer profiles.",
+      "status": "RESOLVED",
+      "id": "ecde30eb-07fd-4c34-8162-9637b084c1b7"
+    },
+    {
+      "title": "Zepto Quick-Commerce Order Exposure",
+      "domain": "zeptonow.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2026-03-01",
+      "detected_at": "2026-09-12T13:43:55.113181+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "Delivery Addresses"
+      ],
+      "severity": "MEDIUM",
+      "description": "Exposed API endpoint leaking delivery fulfillment logs.",
+      "status": "RESOLVED",
+      "id": "469c0a07-092d-492a-942b-251e58b5252a"
+    },
+    {
+      "title": "Dunzo Logistics & User Dump",
+      "domain": "dunzo.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-04-10",
+      "detected_at": "2026-09-12T13:43:55.214008+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "Pickup & Drop Locations"
+      ],
+      "severity": "MEDIUM",
+      "description": "Database backup file leaked online containing task execution logs.",
+      "status": "RESOLVED",
+      "id": "ca908b67-fda7-4b54-9277-5f9c70665062"
+    },
+    {
+      "title": "Reliance Jio Subscriber KYC Exposure",
+      "domain": "jio.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-10-15",
+      "detected_at": "2026-09-12T13:43:55.300952+00:00",
+      "data_classes": [
+        "Emails",
+        "Aadhaar Scans",
+        "Phone Numbers (+91)",
+        "SIM ICCID Numbers"
+      ],
+      "severity": "CRITICAL",
+      "description": "Misconfigured database bucket exposed mobile subscriber registration records.",
+      "status": "RESOLVED",
+      "id": "424f37d8-7672-4bbd-80e5-4bb21f9a3470"
+    },
+    {
+      "title": "Airtel India Telecom Subscriber Dump",
+      "domain": "airtel.in",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2026-01-08",
+      "detected_at": "2026-09-12T13:43:55.394265+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "Address Hashes"
+      ],
+      "severity": "HIGH",
+      "description": "Scraped subscriber index posted on cybercrime marketplace.",
+      "status": "RESOLVED",
+      "id": "07a5d997-e7cd-48c1-9db4-d914e4a4ae8c"
+    },
+    {
+      "title": "Air India (SITA Cyber Attack)",
+      "domain": "airindia.in",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2021-02-25",
+      "detected_at": "2026-09-12T13:43:55.559379+00:00",
+      "data_classes": [
+        "Emails",
+        "Passport Numbers",
+        "Credit Cards",
+        "Ticket Details"
+      ],
+      "severity": "CRITICAL",
+      "description": "Sophisticated cyberattack on SITA passenger service system compromising 4.5M passenger records.",
+      "status": "RESOLVED",
+      "id": "b80b7de1-0686-43b9-9dba-66ca4c726891"
+    },
+    {
+      "title": "BigBasket India Customer Breach",
+      "domain": "bigbasket.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2020-10-30",
+      "detected_at": "2026-09-12T13:43:55.650767+00:00",
+      "data_classes": [
+        "Emails",
+        "Hashed Passwords",
+        "Phone Numbers (+91)",
+        "Physical Addresses"
+      ],
+      "severity": "CRITICAL",
+      "description": "Database stolen and put for sale on dark web containing 20M customer ordering profiles.",
+      "status": "RESOLVED",
+      "id": "d43eba96-d3c8-4c6e-a592-2585b6109a84"
+    },
+    {
+      "title": "Dominos India Order Leak",
+      "domain": "dominos.co.in",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2021-04-18",
+      "detected_at": "2026-09-12T13:43:55.726257+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "GPS Locations",
+        "Order History"
+      ],
+      "severity": "CRITICAL",
+      "description": "Searchable database dump of 180M pizza order records.",
+      "status": "RESOLVED",
+      "id": "42f77e89-d529-4e76-9bd3-de35a7492574"
+    },
+    {
+      "title": "Upstox India Stock Trader KYC Leak",
+      "domain": "upstox.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2021-04-11",
+      "detected_at": "2026-09-12T13:43:55.832661+00:00",
+      "data_classes": [
+        "Emails",
+        "PAN Card Hashes",
+        "Aadhaar Scans",
+        "Bank Account Numbers"
+      ],
+      "severity": "CRITICAL",
+      "description": "Unencrypted AWS database exposed 3.5M stock trader accounts and KYC documents.",
+      "status": "RESOLVED",
+      "id": "b6b4114c-4a4c-4b4e-9743-769eaa872780"
+    },
+    {
+      "title": "Star Health Insurance Customer Leak",
+      "domain": "starhealth.in",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2024-09-20",
+      "detected_at": "2026-09-12T13:43:55.925825+00:00",
+      "data_classes": [
+        "Emails",
+        "Medical Records",
+        "Claims Data",
+        "PAN Cards"
+      ],
+      "severity": "CRITICAL",
+      "description": "Telegram bot leak exposing 31M health insurance policyholder records.",
+      "status": "RESOLVED",
+      "id": "4a1c14d5-56e2-4d0d-b686-0a8053019218"
+    },
+    {
+      "title": "MobiKwik Payment Wallet Breach",
+      "domain": "mobikwik.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2021-03-26",
+      "detected_at": "2026-09-12T13:43:56.012382+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers (+91)",
+        "Credit Card Hashes",
+        "KYC Identity Docs"
+      ],
+      "severity": "CRITICAL",
+      "description": "Dark web portal listing 110M Indian mobile wallet user KYC records.",
+      "status": "RESOLVED",
+      "id": "013442b7-c163-4935-b5fa-70fa33190389"
+    },
+    {
+      "title": "GitHub Developer Email Scraping Dump",
+      "domain": "github.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-05-18",
+      "detected_at": "2026-09-12T13:43:56.112665+00:00",
+      "data_classes": [
+        "Emails",
+        "Usernames",
+        "SSH Key Fingerprints",
+        "Git Commit Metadata"
+      ],
+      "severity": "MEDIUM",
+      "description": "Automated scraping of public Git commit logs extracting developer email addresses.",
+      "status": "RESOLVED",
+      "id": "96f0f29d-5ea8-44c6-954d-8ec894970584"
+    },
+    {
+      "title": "StackOverflow Scraped Profile Archive",
+      "domain": "stackoverflow.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-08-30",
+      "detected_at": "2026-09-12T13:43:56.198714+00:00",
+      "data_classes": [
+        "Emails",
+        "Usernames",
+        "Location",
+        "Reputation Scores"
+      ],
+      "severity": "LOW",
+      "description": "Public user profile dump scraped for AI developer dataset training.",
+      "status": "RESOLVED",
+      "id": "12336137-b4b6-4d3e-98a4-34488e7ec715"
+    },
+    {
+      "title": "Coursera Learning Platform Leak",
+      "domain": "coursera.org",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-11-20",
+      "detected_at": "2026-09-12T13:43:56.309382+00:00",
+      "data_classes": [
+        "Emails",
+        "Course Certificates",
+        "Full Names",
+        "IP Logs"
+      ],
+      "severity": "MEDIUM",
+      "description": "Exposed cloud database containing course completion metadata.",
+      "status": "RESOLVED",
+      "id": "57712301-b47e-43df-aea9-76a3f56e3b2c"
+    },
+    {
+      "title": "Udemy Student Credentials Leak",
+      "domain": "udemy.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-03-14",
+      "detected_at": "2026-09-12T13:43:56.408372+00:00",
+      "data_classes": [
+        "Emails",
+        "Hashed Passwords",
+        "Purchased Courses"
+      ],
+      "severity": "MEDIUM",
+      "description": "Third-party marketing database leak containing student purchase logs.",
+      "status": "RESOLVED",
+      "id": "39878801-f8bb-4a6f-85d2-d72b1c94f93c"
+    },
+    {
+      "title": "Notion Workspace Public Index Exposure",
+      "domain": "notion.so",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2026-02-01",
+      "detected_at": "2026-09-12T13:43:56.499085+00:00",
+      "data_classes": [
+        "Emails",
+        "Shared Workspace Notes",
+        "Usernames"
+      ],
+      "severity": "HIGH",
+      "description": "Public indexing of shared Notion workspace URLs revealing creator emails.",
+      "status": "RESOLVED",
+      "id": "bea615b9-0ce0-4def-8cc4-0db3bf4879a9"
+    },
+    {
+      "title": "Figma Design Profile Dump",
+      "domain": "figma.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2025-12-10",
+      "detected_at": "2026-09-12T13:43:56.595833+00:00",
+      "data_classes": [
+        "Emails",
+        "Profile Links",
+        "Project Metadata"
+      ],
+      "severity": "LOW",
+      "description": "Automated GraphQL endpoint harvest of public Figma community profiles.",
+      "status": "RESOLVED",
+      "id": "f6047937-1b7b-4713-a5a0-c71ace118a8d"
+    },
+    {
+      "title": "LinkedIn 700M Scraped Database",
+      "domain": "linkedin.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2021-06-22",
+      "detected_at": "2026-09-12T13:43:56.677726+00:00",
+      "data_classes": [
+        "Emails",
+        "Phone Numbers",
+        "Professional Titles"
+      ],
+      "severity": "HIGH",
+      "description": "Scraped dataset containing 700M LinkedIn profiles posted on dark web hacker forums.",
+      "status": "RESOLVED",
+      "id": "6ecd767d-0586-4094-9531-2b5477b67669"
+    },
+    {
+      "title": "Twitter (X) 200M Email Dump",
+      "domain": "twitter.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2023-01-04",
+      "detected_at": "2026-09-12T13:43:56.757944+00:00",
+      "data_classes": [
+        "Emails",
+        "Usernames",
+        "Creation Dates"
+      ],
+      "severity": "HIGH",
+      "description": "API vulnerability exploited to extract and leak 200M Twitter user emails.",
+      "status": "RESOLVED",
+      "id": "2b248f15-d423-4352-9b2c-d979089a67c9"
+    },
+    {
+      "title": "Adobe Systems Account Breach",
+      "domain": "adobe.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2013-10-04",
+      "detected_at": "2026-09-12T13:43:56.845691+00:00",
+      "data_classes": [
+        "Emails",
+        "Encrypted Passwords",
+        "Password Hints"
+      ],
+      "severity": "HIGH",
+      "description": "Major security breach compromising 153M Adobe user accounts.",
+      "status": "RESOLVED",
+      "id": "c76cfe50-8f3b-4202-be02-c4217642e069"
+    },
+    {
+      "title": "Canva Graphic Design Breach",
+      "domain": "canva.com",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2019-05-24",
+      "detected_at": "2026-09-12T13:43:56.929699+00:00",
+      "data_classes": [
+        "Emails",
+        "Hashed Passwords",
+        "Full Names"
+      ],
+      "severity": "HIGH",
+      "description": "137M user accounts breached exposing salted bcrypt password hashes.",
+      "status": "RESOLVED",
+      "id": "afded191-61ee-4382-9915-dd3a1ff858e6"
+    },
+    {
+      "title": "FREE AI MODEL DISCOVERY: Credential Hash Leak Feed",
+      "domain": "pwnedpasswords.api",
+      "exposed_target": "mvenky1208@gmail.com",
+      "breach_date": "2026-09-12",
+      "detected_at": "2026-09-12T13:44:20.308330+00:00",
+      "data_classes": [
+        "Hashed Passwords",
+        "Email Identifiers"
+      ],
+      "severity": "HIGH",
+      "description": "LIVE AGENT SEARCH: Match found in public credential hash range index. | AI Reasoning: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach under Section 12 & 13 of",
+      "status": "RESOLVED",
+      "id": "d2176eda-06ce-4d3c-b955-ed82212699f0"
     }
   ],
   "rtbf_requests": [
@@ -1664,6 +2126,150 @@
         }
       ],
       "updated_at": "2026-09-12T12:36:45.414680+00:00"
+    },
+    {
+      "id": "b3e301e1-94a6-41c6-8c21-1c14a402e69d",
+      "target_entity": "pwnedpasswords.api",
+      "target_contact": "privacy@pwnedpasswords.api",
+      "jurisdiction": "DPDP",
+      "status": "DISPATCHED",
+      "created_at": "2026-09-12T13:41:44.268343+00:00",
+      "verification_token": "5eda6c02e0d2cead6164fd81",
+      "agent_signature": "302D7CE4D3D1",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: pwnedpasswords.api\nEmail / Contact Conduit: privacy@pwnedpasswords.api\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Regan Desouza\n- Primary Email Identifier: rachanadesouza79@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 5eda6c02e0d2cead6164fd81\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to pwnedpasswords.api for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct pwnedpasswords.api (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nRegan Desouza\nData Principal (SovereignGuard AI Verified Agent ID: 302D7CE4D3D1)\nCryptographic Audit Proof Hash: 5eda6c02e0d2cead6164fd81\nContact Email: rachanadesouza79@gmail.com\n",
+      "custom_notes": "FREE AI MODEL DISPATCH: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach unde",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:41:44.268343+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        },
+        {
+          "timestamp": "2026-09-12T13:41:44.422925+00:00",
+          "status": "DISPATCHED",
+          "notes": "Legal notice dispatched via Sovereign Privacy Automated Email Conduit to privacy@pwnedpasswords.api."
+        }
+      ],
+      "updated_at": "2026-09-12T13:41:44.422925+00:00"
+    },
+    {
+      "id": "e8bd23ff-fba8-408c-978a-c4b90b3f4864",
+      "target_entity": "pwnedpasswords.api",
+      "target_contact": "privacy@pwnedpasswords.api",
+      "jurisdiction": "DPDP",
+      "status": "DISPATCHED",
+      "created_at": "2026-09-12T13:42:00.360471+00:00",
+      "verification_token": "5eda6c02e0d2cead6164fd81",
+      "agent_signature": "302D7CE4D3D1",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: pwnedpasswords.api\nEmail / Contact Conduit: privacy@pwnedpasswords.api\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Regan Desouza\n- Primary Email Identifier: rachanadesouza79@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 5eda6c02e0d2cead6164fd81\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to pwnedpasswords.api for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct pwnedpasswords.api (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nRegan Desouza\nData Principal (SovereignGuard AI Verified Agent ID: 302D7CE4D3D1)\nCryptographic Audit Proof Hash: 5eda6c02e0d2cead6164fd81\nContact Email: rachanadesouza79@gmail.com\n",
+      "custom_notes": "FREE AI MODEL DISPATCH: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach unde",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:42:00.360471+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        },
+        {
+          "timestamp": "2026-09-12T13:42:00.574521+00:00",
+          "status": "DISPATCHED",
+          "notes": "Legal notice dispatched via Sovereign Privacy Automated Email Conduit to privacy@pwnedpasswords.api."
+        }
+      ],
+      "updated_at": "2026-09-12T13:42:00.574521+00:00"
+    },
+    {
+      "id": "2bf0e21e-13e1-49d4-8df3-258e6c6588cd",
+      "target_entity": "github.com",
+      "target_contact": "privacy@github.com",
+      "jurisdiction": "DPDP",
+      "status": "DRAFT",
+      "created_at": "2026-09-12T13:42:25.595490+00:00",
+      "verification_token": "100a55aa1de7a2c5d0969188",
+      "agent_signature": "302D7CE4D3D1",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: github.com\nEmail / Contact Conduit: privacy@github.com\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Regan Desouza\n- Primary Email Identifier: rachanadesouza79@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 100a55aa1de7a2c5d0969188\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to github.com for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct github.com (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nRegan Desouza\nData Principal (SovereignGuard AI Verified Agent ID: 302D7CE4D3D1)\nCryptographic Audit Proof Hash: 100a55aa1de7a2c5d0969188\nContact Email: rachanadesouza79@gmail.com\n",
+      "custom_notes": "Manual RTBF Demand triggered from Leak Monitor for domain github.com",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:42:25.595490+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        }
+      ]
+    },
+    {
+      "id": "b04c3c2f-4a67-4a44-902b-33da9423a4cf",
+      "target_entity": "pwnedpasswords.api",
+      "target_contact": "privacy@pwnedpasswords.api",
+      "jurisdiction": "DPDP",
+      "status": "DISPATCHED",
+      "created_at": "2026-09-12T13:42:52.666851+00:00",
+      "verification_token": "5eda6c02e0d2cead6164fd81",
+      "agent_signature": "302D7CE4D3D1",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: pwnedpasswords.api\nEmail / Contact Conduit: privacy@pwnedpasswords.api\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Regan Desouza\n- Primary Email Identifier: rachanadesouza79@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 5eda6c02e0d2cead6164fd81\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to pwnedpasswords.api for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct pwnedpasswords.api (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nRegan Desouza\nData Principal (SovereignGuard AI Verified Agent ID: 302D7CE4D3D1)\nCryptographic Audit Proof Hash: 5eda6c02e0d2cead6164fd81\nContact Email: rachanadesouza79@gmail.com\n",
+      "custom_notes": "FREE AI MODEL DISPATCH: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach unde",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:42:52.666851+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        },
+        {
+          "timestamp": "2026-09-12T13:42:52.761593+00:00",
+          "status": "DISPATCHED",
+          "notes": "Legal notice dispatched via Sovereign Privacy Automated Email Conduit to privacy@pwnedpasswords.api."
+        }
+      ],
+      "updated_at": "2026-09-12T13:42:52.761593+00:00"
+    },
+    {
+      "id": "59913cda-da8b-4b27-b161-fb3534ee3396",
+      "target_entity": "pwnedpasswords.api",
+      "target_contact": "privacy@pwnedpasswords.api",
+      "jurisdiction": "DPDP",
+      "status": "DISPATCHED",
+      "created_at": "2026-09-12T13:44:20.421872+00:00",
+      "verification_token": "5244b35ec6496d73316206f6",
+      "agent_signature": "27D5BED82523",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: pwnedpasswords.api\nEmail / Contact Conduit: privacy@pwnedpasswords.api\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Moturi Venkatesh\n- Primary Email Identifier: mvenky1208@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 5244b35ec6496d73316206f6\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to pwnedpasswords.api for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct pwnedpasswords.api (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nMoturi Venkatesh\nData Principal (SovereignGuard AI Verified Agent ID: 27D5BED82523)\nCryptographic Audit Proof Hash: 5244b35ec6496d73316206f6\nContact Email: mvenky1208@gmail.com\n",
+      "custom_notes": "FREE AI MODEL DISPATCH: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach unde",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:44:20.421872+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        },
+        {
+          "timestamp": "2026-09-12T13:44:20.533338+00:00",
+          "status": "DISPATCHED",
+          "notes": "Legal notice dispatched via Sovereign Privacy Automated Email Conduit to privacy@pwnedpasswords.api."
+        }
+      ],
+      "updated_at": "2026-09-12T13:44:20.533338+00:00"
+    },
+    {
+      "id": "2fa24c79-94d3-40b8-86c1-451521dfb8d0",
+      "target_entity": "pwnedpasswords.api",
+      "target_contact": "privacy@pwnedpasswords.api",
+      "jurisdiction": "DPDP",
+      "status": "DISPATCHED",
+      "created_at": "2026-09-12T13:44:42.280516+00:00",
+      "verification_token": "5244b35ec6496d73316206f6",
+      "agent_signature": "27D5BED82523",
+      "notice_text": "FORMAL LEGAL NOTICE OF ERASURE & CONSENT WITHDRAWAL\nPURSUANT TO SECTION 12 & SECTION 13 OF THE DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA)\n\nDate: September 12, 2026\nTo Data Protection Officer / Data Fiduciary Compliance Dept: pwnedpasswords.api\nEmail / Contact Conduit: privacy@pwnedpasswords.api\n\nRE: Mandatory Erasure of Personal Data & Withdrawal of Consent under DPDP Act, 2023\n\nDear Data Protection Officer / Compliance Lead,\n\nI am writing to formally serve this legal notice under Section 12 (Right to Erasure of Personal Data) and Section 13 (Right to Grievance Redressal) of India's Digital Personal Data Protection Act, 2023 (DPDP Act 2023), read with the applicable Data Protection Rules.\n\n1. DATA PRINCIPAL IDENTIFICATION:\n- Full Legal Name: Moturi Venkatesh\n- Primary Email Identifier: mvenky1208@gmail.com\n- Aadhaar / PAN / National Identity Proof Hash: 5244b35ec6496d73316206f6\n- Secondary Identifiers: adithya.dev@techcorp.in\n- Registered Jurisdiction: India (Delhi)\n\n2. MANDATORY STATUTORY DIRECTIVES (SECTION 12 DPDP ACT 2023):\nAs the Data Principal, I hereby exercise my absolute statutory rights to:\na) WITHDRAW CONSENT: Formally withdraw any and all prior consent granted to pwnedpasswords.api for the collection, storage, indexing, processing, or commercial profiling of my personal data.\nb) MANDATORY ERASURE: Instruct pwnedpasswords.api (Data Fiduciary) to immediately delete and permanently erase all personal data, contact records, behavioral attributes, scraped indices, and background profiles associated with my identity from all servers, cloud databases, and offline backups.\nc) SUB-PROCESSOR NOTIFICATION: Direct all Data Processors, analytics partners, and third-party data aggregators acting on your behalf to erase all copies of my personal data immediately.\n\n3. STATUTORY TIMELINE & GRIEVANCE REDRESSAL (SECTION 13 DPDP ACT 2023):\nUnder Section 13 of the DPDP Act 2023, you are legally mandated to acknowledge receipt of this request and provide written confirmation of complete erasure within 30 calendar days.\n\nFAILURE TO COMPLY:\nNon-compliance with statutory erasure directives under the DPDP Act 2023 attracts significant financial penalties enforced by the Data Protection Board of India (DPBI) under Schedule 1 of the Act (up to ₹250 Crore per breach instance).\n\nYours faithfully,\n\nMoturi Venkatesh\nData Principal (SovereignGuard AI Verified Agent ID: 27D5BED82523)\nCryptographic Audit Proof Hash: 5244b35ec6496d73316206f6\nContact Email: mvenky1208@gmail.com\n",
+      "custom_notes": "FREE AI MODEL DISPATCH: AGENTIC AI LEGAL SYNTHESIS: The detected data exposure constitutes a high-risk statutory breach unde",
+      "history": [
+        {
+          "timestamp": "2026-09-12T13:44:42.280516+00:00",
+          "status": "DRAFT",
+          "notes": "Generated legal notice draft under DPDP statutory rules."
+        },
+        {
+          "timestamp": "2026-09-12T13:44:42.331852+00:00",
+          "status": "DISPATCHED",
+          "notes": "Legal notice dispatched via Sovereign Privacy Automated Email Conduit to privacy@pwnedpasswords.api."
+        }
+      ],
+      "updated_at": "2026-09-12T13:44:42.331852+00:00"
     }
   ],
   "honeytokens": [],
@@ -2436,6 +3042,372 @@
       "timestamp": "2026-09-12T13:34:56.218857+00:00",
       "action_type": "ZK_CREDENTIAL_ISSUED",
       "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: cae7fcb2c82dbeaf...)"
+    },
+    {
+      "id": "51b69645-de77-4cd2-a8eb-f9786789cfc8",
+      "timestamp": "2026-09-12T13:41:40.013542+00:00",
+      "action_type": "FREE_AI_AGENTIC_START",
+      "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP)."
+    },
+    {
+      "id": "f98ff6dc-9bd5-49c1-af0a-a348e478ad51",
+      "timestamp": "2026-09-12T13:41:44.192429+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'FREE AI MODEL DISCOVERY: Credential Hash Leak Feed' affecting target 'rachanadesouza79@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "a6890519-39b2-47d7-8b61-77bb780dade2",
+      "timestamp": "2026-09-12T13:41:44.344333+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID b3e301e1 for 'pwnedpasswords.api' under DPDP"
+    },
+    {
+      "id": "64d73dcc-77bc-4a87-b856-7421fcaa6ae4",
+      "timestamp": "2026-09-12T13:41:44.497781+00:00",
+      "action_type": "RTBF_STATUS_CHANGE",
+      "message": "RTBF Request b3e301e1 updated to status 'DISPATCHED'"
+    },
+    {
+      "id": "57bd1ded-3de7-4d65-96b3-e97c5b054b36",
+      "timestamp": "2026-09-12T13:41:44.572699+00:00",
+      "action_type": "EMAIL_DISPATCHED",
+      "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81"
+    },
+    {
+      "id": "a1748fee-dd88-49e9-b2b9-59c40a1ea799",
+      "timestamp": "2026-09-12T13:41:44.698061+00:00",
+      "action_type": "FREE_AI_AGENTIC_COMPLETE",
+      "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices."
+    },
+    {
+      "id": "33c45145-61ea-40c4-89fc-d794cab5d218",
+      "timestamp": "2026-09-12T13:41:52.289685+00:00",
+      "action_type": "FREE_AI_AGENTIC_START",
+      "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP)."
+    },
+    {
+      "id": "7e118194-3ba1-413b-b976-c945b85d6e39",
+      "timestamp": "2026-09-12T13:42:00.470172+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID e8bd23ff for 'pwnedpasswords.api' under DPDP"
+    },
+    {
+      "id": "30271aed-2b2e-4ae4-b41a-4b2dcad5c4a3",
+      "timestamp": "2026-09-12T13:42:00.652927+00:00",
+      "action_type": "RTBF_STATUS_CHANGE",
+      "message": "RTBF Request e8bd23ff updated to status 'DISPATCHED'"
+    },
+    {
+      "id": "5710087f-5db4-43e6-be22-8ce694a421ce",
+      "timestamp": "2026-09-12T13:42:00.730181+00:00",
+      "action_type": "EMAIL_DISPATCHED",
+      "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81"
+    },
+    {
+      "id": "079dd70c-d2e9-4d84-8ad3-a48d92aeae4b",
+      "timestamp": "2026-09-12T13:42:00.873512+00:00",
+      "action_type": "FREE_AI_AGENTIC_COMPLETE",
+      "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices."
+    },
+    {
+      "id": "3708599e-f169-49d9-8d7b-2e2c852827ca",
+      "timestamp": "2026-09-12T13:42:25.646333+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID 2bf0e21e for 'github.com' under DPDP"
+    },
+    {
+      "id": "aa94b697-48cc-4fa0-ab49-4730adcf8156",
+      "timestamp": "2026-09-12T13:42:34.513364+00:00",
+      "action_type": "SCAN_COMPLETED",
+      "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)"
+    },
+    {
+      "id": "7776d94d-370f-4bb9-9b6c-ed5d93d7cd2e",
+      "timestamp": "2026-09-12T13:42:36.530923+00:00",
+      "action_type": "SCAN_COMPLETED",
+      "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)"
+    },
+    {
+      "id": "ddf7aead-8303-49cf-a7e1-0f4af7e7316a",
+      "timestamp": "2026-09-12T13:42:37.441792+00:00",
+      "action_type": "SCAN_COMPLETED",
+      "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)"
+    },
+    {
+      "id": "6cfb385d-9f5d-4173-9343-6e9b248ec6bd",
+      "timestamp": "2026-09-12T13:42:44.673905+00:00",
+      "action_type": "SCAN_COMPLETED",
+      "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)"
+    },
+    {
+      "id": "6c1d48f9-0258-4f06-a941-2ab12514d7f8",
+      "timestamp": "2026-09-12T13:42:49.488784+00:00",
+      "action_type": "FREE_AI_AGENTIC_START",
+      "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP)."
+    },
+    {
+      "id": "609e2ce1-9aa2-46f2-af8b-9b5331abed16",
+      "timestamp": "2026-09-12T13:42:52.715698+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID b04c3c2f for 'pwnedpasswords.api' under DPDP"
+    },
+    {
+      "id": "ba47f438-3e5b-4339-969b-53391a71e458",
+      "timestamp": "2026-09-12T13:42:52.803266+00:00",
+      "action_type": "RTBF_STATUS_CHANGE",
+      "message": "RTBF Request b04c3c2f updated to status 'DISPATCHED'"
+    },
+    {
+      "id": "1cc14c8c-d38b-4215-b5e0-ba6be3836c41",
+      "timestamp": "2026-09-12T13:42:52.852348+00:00",
+      "action_type": "EMAIL_DISPATCHED",
+      "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81"
+    },
+    {
+      "id": "5b890485-8e8b-42cf-9599-4e161f8cb637",
+      "timestamp": "2026-09-12T13:42:52.947865+00:00",
+      "action_type": "FREE_AI_AGENTIC_COMPLETE",
+      "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices."
+    },
+    {
+      "id": "f2154b95-6335-40ac-8bc6-46c7f86a4b64",
+      "timestamp": "2026-09-12T13:43:50.254132+00:00",
+      "action_type": "PROFILE_UPDATE",
+      "message": "Updated user privacy profile for mvenky1208@gmail.com"
+    },
+    {
+      "id": "46dd77eb-7ad4-4c0f-9358-4cad9475ef13",
+      "timestamp": "2026-09-12T13:43:54.630491+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'PhonePe Payment Merchant Dump 2025' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "2069d004-a34c-405f-9521-977db3c18bee",
+      "timestamp": "2026-09-12T13:43:54.712027+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Paytm Merchant & Wallet Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "9ee066e2-dd49-494f-8428-954d8f710434",
+      "timestamp": "2026-09-12T13:43:54.803099+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'CRED Premium Member Financial Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "505c2910-1be0-4189-b533-1f41aea1b5da",
+      "timestamp": "2026-09-12T13:43:54.890711+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'PolicyBazaar Insurance Query Exposure' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "a78eb086-985e-4842-bf50-f31d885559f0",
+      "timestamp": "2026-09-12T13:43:54.976977+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Swiggy Delivery Address & Order Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "7f294dd0-8096-462b-8e3f-8a7315e45563",
+      "timestamp": "2026-09-12T13:43:55.094836+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Zomato Customer Order History Leak' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "254363f4-c220-4b5b-87e7-6582417d3132",
+      "timestamp": "2026-09-12T13:43:55.201503+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Zepto Quick-Commerce Order Exposure' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)"
+    },
+    {
+      "id": "39b9796a-03a3-4aa1-88c7-bcd622fd07d6",
+      "timestamp": "2026-09-12T13:43:55.282519+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Dunzo Logistics & User Dump' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)"
+    },
+    {
+      "id": "9b64919b-0ba8-489e-b64d-0c84752b351d",
+      "timestamp": "2026-09-12T13:43:55.380083+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Reliance Jio Subscriber KYC Exposure' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "9a82d3bf-ee7d-45e9-8cd4-f055c9473e0d",
+      "timestamp": "2026-09-12T13:43:55.536698+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Airtel India Telecom Subscriber Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "6968737a-97f7-4b73-a58a-d36751579ed2",
+      "timestamp": "2026-09-12T13:43:55.636912+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Air India (SITA Cyber Attack)' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "6c423e85-da14-43a5-a582-6ebf86ed2fbc",
+      "timestamp": "2026-09-12T13:43:55.706144+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'BigBasket India Customer Breach' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "49a36f21-2673-4a2b-8034-4e10f294af2c",
+      "timestamp": "2026-09-12T13:43:55.788318+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Dominos India Order Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "606276ed-8f58-4305-8f2b-4b640d078cd4",
+      "timestamp": "2026-09-12T13:43:55.912964+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Upstox India Stock Trader KYC Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "0acb77fa-70de-4bf5-b682-1e2c30fca05a",
+      "timestamp": "2026-09-12T13:43:55.998562+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Star Health Insurance Customer Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "dbfd138d-db96-40c3-b3fc-501e78cac60b",
+      "timestamp": "2026-09-12T13:43:56.098146+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'MobiKwik Payment Wallet Breach' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)"
+    },
+    {
+      "id": "f41bbd21-c0d5-42b2-bc72-6d6ac73c816f",
+      "timestamp": "2026-09-12T13:43:56.185073+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'GitHub Developer Email Scraping Dump' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)"
+    },
+    {
+      "id": "11739be8-8ed8-47d8-a398-c8c7d8b3a1cf",
+      "timestamp": "2026-09-12T13:43:56.296949+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'StackOverflow Scraped Profile Archive' affecting target 'mvenky1208@gmail.com' (Severity: LOW)"
+    },
+    {
+      "id": "befe29c2-ab6d-44bf-8c2c-b70430b8507f",
+      "timestamp": "2026-09-12T13:43:56.392648+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Coursera Learning Platform Leak' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)"
+    },
+    {
+      "id": "27da2ba0-5f0f-496b-ba1c-d362b796f6bd",
+      "timestamp": "2026-09-12T13:43:56.480512+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Udemy Student Credentials Leak' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)"
+    },
+    {
+      "id": "0d2f6177-7938-4cef-8982-b82eee668836",
+      "timestamp": "2026-09-12T13:43:56.580765+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Notion Workspace Public Index Exposure' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "65e1f1f8-7b0d-4e40-a361-fd68e5fb75a7",
+      "timestamp": "2026-09-12T13:43:56.663443+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Figma Design Profile Dump' affecting target 'mvenky1208@gmail.com' (Severity: LOW)"
+    },
+    {
+      "id": "69c9e379-ab74-48ca-b6c4-a6102951fa90",
+      "timestamp": "2026-09-12T13:43:56.743839+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'LinkedIn 700M Scraped Database' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "42befe3d-087c-4b59-af09-2471d17bff50",
+      "timestamp": "2026-09-12T13:43:56.831737+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Twitter (X) 200M Email Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "fe46441e-9992-4930-b993-9bdbd03f9a0d",
+      "timestamp": "2026-09-12T13:43:56.911653+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Adobe Systems Account Breach' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "54a0aa65-39a4-4777-8744-19621e6ce99a",
+      "timestamp": "2026-09-12T13:43:57.004711+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'Canva Graphic Design Breach' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "0e24ca8e-d146-4104-a846-d3721c515905",
+      "timestamp": "2026-09-12T13:43:57.074279+00:00",
+      "action_type": "SCAN_COMPLETED",
+      "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 106 breach records. Score: 0/100 (CRITICAL_EXPOSURE)"
+    },
+    {
+      "id": "0bfcaf18-e294-498c-8f0a-857d2e3030df",
+      "timestamp": "2026-09-12T13:44:16.678323+00:00",
+      "action_type": "FREE_AI_AGENTIC_START",
+      "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: mvenky1208@gmail.com (DPDP)."
+    },
+    {
+      "id": "525b9f9b-571e-4223-a62a-2fd9f056df54",
+      "timestamp": "2026-09-12T13:44:20.373933+00:00",
+      "action_type": "LEAK_DETECTED",
+      "message": "Data leak detected: 'FREE AI MODEL DISCOVERY: Credential Hash Leak Feed' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)"
+    },
+    {
+      "id": "e46cf832-adc5-4b50-8ad9-76a98cc12557",
+      "timestamp": "2026-09-12T13:44:20.473284+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID 59913cda for 'pwnedpasswords.api' under DPDP"
+    },
+    {
+      "id": "6a4d9f44-58fd-4f3d-afbb-cebe6678ebaf",
+      "timestamp": "2026-09-12T13:44:20.583472+00:00",
+      "action_type": "RTBF_STATUS_CHANGE",
+      "message": "RTBF Request 59913cda updated to status 'DISPATCHED'"
+    },
+    {
+      "id": "278f7e90-c07a-4216-bbe5-b457798459d2",
+      "timestamp": "2026-09-12T13:44:20.620836+00:00",
+      "action_type": "EMAIL_DISPATCHED",
+      "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5244b35ec6496d73316206f6"
+    },
+    {
+      "id": "bb3a9778-ec26-46f3-9ea1-42b00f61602b",
+      "timestamp": "2026-09-12T13:44:20.795739+00:00",
+      "action_type": "FREE_AI_AGENTIC_COMPLETE",
+      "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices."
+    },
+    {
+      "id": "3eb09b19-12ad-4e5a-b5e0-bf12bac26aeb",
+      "timestamp": "2026-09-12T13:44:37.666401+00:00",
+      "action_type": "FREE_AI_AGENTIC_START",
+      "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: mvenky1208@gmail.com (DPDP)."
+    },
+    {
+      "id": "0ea6c386-b2e1-4515-8e46-45ad476dfac0",
+      "timestamp": "2026-09-12T13:44:42.301097+00:00",
+      "action_type": "RTBF_CREATED",
+      "message": "Created RTBF Legal Request ID 2fa24c79 for 'pwnedpasswords.api' under DPDP"
+    },
+    {
+      "id": "4493f7ff-417d-4812-92b0-4e7c549fa1fc",
+      "timestamp": "2026-09-12T13:44:42.356227+00:00",
+      "action_type": "RTBF_STATUS_CHANGE",
+      "message": "RTBF Request 2fa24c79 updated to status 'DISPATCHED'"
+    },
+    {
+      "id": "6b449c61-6c45-4012-8e57-706ef3e6037e",
+      "timestamp": "2026-09-12T13:44:42.377117+00:00",
+      "action_type": "EMAIL_DISPATCHED",
+      "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5244b35ec6496d73316206f6"
+    },
+    {
+      "id": "347a93f1-f44e-4aa6-9610-7c9b9e339312",
+      "timestamp": "2026-09-12T13:44:42.467740+00:00",
+      "action_type": "FREE_AI_AGENTIC_COMPLETE",
+      "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices."
+    },
+    {
+      "id": "83d1e7a5-a4e9-41f0-b57d-269d8c7e0257",
+      "timestamp": "2026-09-12T13:46:55.652607+00:00",
+      "action_type": "ZK_CREDENTIAL_ISSUED",
+      "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: b8a9d8cae399d90e...)"
     }
   ],
   "audit_blocks": [
@@ -5199,6 +6171,677 @@
       },
       "previous_hash": "67ecb1355ad8f926c0c79848a9d0bef9d73047217c3cc52fa2b12a9c703a81b5",
       "hash": "dd4ec26ed8ccb8c733b0d314466625052a1023fefa56a798b6f63cb18358f6ac"
+    },
+    {
+      "index": 251,
+      "timestamp": "2026-09-12T13:41:40.013542+00:00",
+      "action": "FREE_AI_AGENTIC_START",
+      "data": {
+        "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP).",
+        "timestamp": "2026-09-12T13:41:40.013542+00:00"
+      },
+      "previous_hash": "dd4ec26ed8ccb8c733b0d314466625052a1023fefa56a798b6f63cb18358f6ac",
+      "hash": "6907c6bf8d3730e62f787af7639fb5edb1cbd3fd2a5417e807e31fa1d0cba88e"
+    },
+    {
+      "index": 252,
+      "timestamp": "2026-09-12T13:41:44.192429+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'FREE AI MODEL DISCOVERY: Credential Hash Leak Feed' affecting target 'rachanadesouza79@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:41:44.192429+00:00"
+      },
+      "previous_hash": "6907c6bf8d3730e62f787af7639fb5edb1cbd3fd2a5417e807e31fa1d0cba88e",
+      "hash": "5962122325759c59d6bb549a6018f6f95d443bb2416ed8fd0fa227cd186d90bf"
+    },
+    {
+      "index": 253,
+      "timestamp": "2026-09-12T13:41:44.344333+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID b3e301e1 for 'pwnedpasswords.api' under DPDP",
+        "timestamp": "2026-09-12T13:41:44.344333+00:00"
+      },
+      "previous_hash": "5962122325759c59d6bb549a6018f6f95d443bb2416ed8fd0fa227cd186d90bf",
+      "hash": "7fba77af508d5a12f1199182866d86077cee18e291047d37d7c2bcf467d78bb4"
+    },
+    {
+      "index": 254,
+      "timestamp": "2026-09-12T13:41:44.497781+00:00",
+      "action": "RTBF_STATUS_CHANGE",
+      "data": {
+        "message": "RTBF Request b3e301e1 updated to status 'DISPATCHED'",
+        "timestamp": "2026-09-12T13:41:44.497781+00:00"
+      },
+      "previous_hash": "7fba77af508d5a12f1199182866d86077cee18e291047d37d7c2bcf467d78bb4",
+      "hash": "fe4c19877ea1337b3cc33f60e976bcd6a0226ab7f3c86ae36f758c13d935f060"
+    },
+    {
+      "index": 255,
+      "timestamp": "2026-09-12T13:41:44.572699+00:00",
+      "action": "EMAIL_DISPATCHED",
+      "data": {
+        "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81",
+        "timestamp": "2026-09-12T13:41:44.572699+00:00"
+      },
+      "previous_hash": "fe4c19877ea1337b3cc33f60e976bcd6a0226ab7f3c86ae36f758c13d935f060",
+      "hash": "3eac100963074c8a6f32acbb6973ba050aae0497b44e23bc7638cd5105a05962"
+    },
+    {
+      "index": 256,
+      "timestamp": "2026-09-12T13:41:44.698585+00:00",
+      "action": "FREE_AI_AGENTIC_COMPLETE",
+      "data": {
+        "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices.",
+        "timestamp": "2026-09-12T13:41:44.698061+00:00"
+      },
+      "previous_hash": "3eac100963074c8a6f32acbb6973ba050aae0497b44e23bc7638cd5105a05962",
+      "hash": "d8d7d3b7086a70cbd2503a896faa2a0d66ed147a205f8b03ccab21cd96fac814"
+    },
+    {
+      "index": 257,
+      "timestamp": "2026-09-12T13:41:52.289685+00:00",
+      "action": "FREE_AI_AGENTIC_START",
+      "data": {
+        "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP).",
+        "timestamp": "2026-09-12T13:41:52.289685+00:00"
+      },
+      "previous_hash": "d8d7d3b7086a70cbd2503a896faa2a0d66ed147a205f8b03ccab21cd96fac814",
+      "hash": "69fe8a41b9652d31499944ae0206083b7f123d87d62df1ac0f638bc7ba11cfe7"
+    },
+    {
+      "index": 258,
+      "timestamp": "2026-09-12T13:42:00.470172+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID e8bd23ff for 'pwnedpasswords.api' under DPDP",
+        "timestamp": "2026-09-12T13:42:00.470172+00:00"
+      },
+      "previous_hash": "69fe8a41b9652d31499944ae0206083b7f123d87d62df1ac0f638bc7ba11cfe7",
+      "hash": "2ae2dffe2622fd9f7afd964a8a439dde249ed67b657d01d532628afae1a43dee"
+    },
+    {
+      "index": 259,
+      "timestamp": "2026-09-12T13:42:00.652927+00:00",
+      "action": "RTBF_STATUS_CHANGE",
+      "data": {
+        "message": "RTBF Request e8bd23ff updated to status 'DISPATCHED'",
+        "timestamp": "2026-09-12T13:42:00.652927+00:00"
+      },
+      "previous_hash": "2ae2dffe2622fd9f7afd964a8a439dde249ed67b657d01d532628afae1a43dee",
+      "hash": "c73d53c37531efb6c56d738e198f61a91501a19e27bddb87376a0dbc8eff277a"
+    },
+    {
+      "index": 260,
+      "timestamp": "2026-09-12T13:42:00.730181+00:00",
+      "action": "EMAIL_DISPATCHED",
+      "data": {
+        "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81",
+        "timestamp": "2026-09-12T13:42:00.730181+00:00"
+      },
+      "previous_hash": "c73d53c37531efb6c56d738e198f61a91501a19e27bddb87376a0dbc8eff277a",
+      "hash": "73f44e4349acea952fbbdd865098cc335f721da8efb4ccaa3fd40d0b0674a226"
+    },
+    {
+      "index": 261,
+      "timestamp": "2026-09-12T13:42:00.873512+00:00",
+      "action": "FREE_AI_AGENTIC_COMPLETE",
+      "data": {
+        "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices.",
+        "timestamp": "2026-09-12T13:42:00.873512+00:00"
+      },
+      "previous_hash": "73f44e4349acea952fbbdd865098cc335f721da8efb4ccaa3fd40d0b0674a226",
+      "hash": "3de803cda514a86f4df1c1e3b04c6b7463e2fbe3e55b184250df711ee66e66a4"
+    },
+    {
+      "index": 262,
+      "timestamp": "2026-09-12T13:42:25.646333+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID 2bf0e21e for 'github.com' under DPDP",
+        "timestamp": "2026-09-12T13:42:25.646333+00:00"
+      },
+      "previous_hash": "3de803cda514a86f4df1c1e3b04c6b7463e2fbe3e55b184250df711ee66e66a4",
+      "hash": "048a1af130bd5b0e9ea18cc31a1055869dc755e7661aa3b5042ee0840218e83c"
+    },
+    {
+      "index": 263,
+      "timestamp": "2026-09-12T13:42:34.513364+00:00",
+      "action": "SCAN_COMPLETED",
+      "data": {
+        "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)",
+        "timestamp": "2026-09-12T13:42:34.513364+00:00"
+      },
+      "previous_hash": "048a1af130bd5b0e9ea18cc31a1055869dc755e7661aa3b5042ee0840218e83c",
+      "hash": "543e17699de2f6c92abecc3dde052546bb7d49b91bcd12777fc2a489f150efc9"
+    },
+    {
+      "index": 264,
+      "timestamp": "2026-09-12T13:42:36.530923+00:00",
+      "action": "SCAN_COMPLETED",
+      "data": {
+        "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)",
+        "timestamp": "2026-09-12T13:42:36.530923+00:00"
+      },
+      "previous_hash": "543e17699de2f6c92abecc3dde052546bb7d49b91bcd12777fc2a489f150efc9",
+      "hash": "25af592286f5e60ccedfb135535677b46a3cac92114f95a51e0032f504ce96c3"
+    },
+    {
+      "index": 265,
+      "timestamp": "2026-09-12T13:42:37.441792+00:00",
+      "action": "SCAN_COMPLETED",
+      "data": {
+        "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)",
+        "timestamp": "2026-09-12T13:42:37.441792+00:00"
+      },
+      "previous_hash": "25af592286f5e60ccedfb135535677b46a3cac92114f95a51e0032f504ce96c3",
+      "hash": "63b68c68755210b376f5679b8d3a1db359785768b9f3e52550e03a124e04bf99"
+    },
+    {
+      "index": 266,
+      "timestamp": "2026-09-12T13:42:44.673905+00:00",
+      "action": "SCAN_COMPLETED",
+      "data": {
+        "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 80 breach records. Score: 100/100 (EXCELLENT)",
+        "timestamp": "2026-09-12T13:42:44.673905+00:00"
+      },
+      "previous_hash": "63b68c68755210b376f5679b8d3a1db359785768b9f3e52550e03a124e04bf99",
+      "hash": "0ef3f9cbdaca9b09bca2e85d8fff975f88d1f8c46d4855d7183d83135856bd69"
+    },
+    {
+      "index": 267,
+      "timestamp": "2026-09-12T13:42:49.488784+00:00",
+      "action": "FREE_AI_AGENTIC_START",
+      "data": {
+        "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: rachanadesouza79@gmail.com (DPDP).",
+        "timestamp": "2026-09-12T13:42:49.488784+00:00"
+      },
+      "previous_hash": "0ef3f9cbdaca9b09bca2e85d8fff975f88d1f8c46d4855d7183d83135856bd69",
+      "hash": "fc6c9447f5b391043929078a4a53d697707fb30dcb3150929b90cb3d9cffc06f"
+    },
+    {
+      "index": 268,
+      "timestamp": "2026-09-12T13:42:52.715698+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID b04c3c2f for 'pwnedpasswords.api' under DPDP",
+        "timestamp": "2026-09-12T13:42:52.715698+00:00"
+      },
+      "previous_hash": "fc6c9447f5b391043929078a4a53d697707fb30dcb3150929b90cb3d9cffc06f",
+      "hash": "0161679fc8163a6cd6d55efc24b30859728387c4be536fc3a1770339c8e2fc39"
+    },
+    {
+      "index": 269,
+      "timestamp": "2026-09-12T13:42:52.803266+00:00",
+      "action": "RTBF_STATUS_CHANGE",
+      "data": {
+        "message": "RTBF Request b04c3c2f updated to status 'DISPATCHED'",
+        "timestamp": "2026-09-12T13:42:52.803266+00:00"
+      },
+      "previous_hash": "0161679fc8163a6cd6d55efc24b30859728387c4be536fc3a1770339c8e2fc39",
+      "hash": "67d82c1de89cff97756673621e7b82e0308d6670fb486e8d66e5103bcdabe37f"
+    },
+    {
+      "index": 270,
+      "timestamp": "2026-09-12T13:42:52.852348+00:00",
+      "action": "EMAIL_DISPATCHED",
+      "data": {
+        "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5eda6c02e0d2cead6164fd81",
+        "timestamp": "2026-09-12T13:42:52.852348+00:00"
+      },
+      "previous_hash": "67d82c1de89cff97756673621e7b82e0308d6670fb486e8d66e5103bcdabe37f",
+      "hash": "99604ce6973b268c49ab5cff78ebac9b1a03af6af44ee6c6f7c4f9b15d91038b"
+    },
+    {
+      "index": 271,
+      "timestamp": "2026-09-12T13:42:52.947865+00:00",
+      "action": "FREE_AI_AGENTIC_COMPLETE",
+      "data": {
+        "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices.",
+        "timestamp": "2026-09-12T13:42:52.947865+00:00"
+      },
+      "previous_hash": "99604ce6973b268c49ab5cff78ebac9b1a03af6af44ee6c6f7c4f9b15d91038b",
+      "hash": "b38c1b6b8292c0e460cdac7860668f0c9695d188c3f84ac171870abba7c12338"
+    },
+    {
+      "index": 272,
+      "timestamp": "2026-09-12T13:43:50.254132+00:00",
+      "action": "PROFILE_UPDATE",
+      "data": {
+        "message": "Updated user privacy profile for mvenky1208@gmail.com",
+        "timestamp": "2026-09-12T13:43:50.254132+00:00"
+      },
+      "previous_hash": "b38c1b6b8292c0e460cdac7860668f0c9695d188c3f84ac171870abba7c12338",
+      "hash": "c745ea4a6e4c616061fb41382efc6873fa447c109f8cc47905e7a743e7e306bf"
+    },
+    {
+      "index": 273,
+      "timestamp": "2026-09-12T13:43:54.630491+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'PhonePe Payment Merchant Dump 2025' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:54.630491+00:00"
+      },
+      "previous_hash": "c745ea4a6e4c616061fb41382efc6873fa447c109f8cc47905e7a743e7e306bf",
+      "hash": "59cdd8bce5123cddd44def90e5e0938eb2c1ba1fa38c2d8a90022042e748fe49"
+    },
+    {
+      "index": 274,
+      "timestamp": "2026-09-12T13:43:54.712027+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Paytm Merchant & Wallet Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:54.712027+00:00"
+      },
+      "previous_hash": "59cdd8bce5123cddd44def90e5e0938eb2c1ba1fa38c2d8a90022042e748fe49",
+      "hash": "3f5677b6662cfe86ed6fdde27411d9671a5d61db4b14c264bc2e9107d5b3e6d6"
+    },
+    {
+      "index": 275,
+      "timestamp": "2026-09-12T13:43:54.803099+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'CRED Premium Member Financial Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:54.803099+00:00"
+      },
+      "previous_hash": "3f5677b6662cfe86ed6fdde27411d9671a5d61db4b14c264bc2e9107d5b3e6d6",
+      "hash": "58fa85d1a2d6e801cc9a84236312c60bb480734869a78aad48c76b5d4509a4a5"
+    },
+    {
+      "index": 276,
+      "timestamp": "2026-09-12T13:43:54.890711+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'PolicyBazaar Insurance Query Exposure' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:54.890711+00:00"
+      },
+      "previous_hash": "58fa85d1a2d6e801cc9a84236312c60bb480734869a78aad48c76b5d4509a4a5",
+      "hash": "5b0acba2a5768db43531b5a6a638fccf3b530d7e47eda031cef06b452e86e5ef"
+    },
+    {
+      "index": 277,
+      "timestamp": "2026-09-12T13:43:54.976977+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Swiggy Delivery Address & Order Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:54.976977+00:00"
+      },
+      "previous_hash": "5b0acba2a5768db43531b5a6a638fccf3b530d7e47eda031cef06b452e86e5ef",
+      "hash": "c03338064c7fa32f85b60191bc57baa0b974296f1ef1a630ed53176182503134"
+    },
+    {
+      "index": 278,
+      "timestamp": "2026-09-12T13:43:55.094836+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Zomato Customer Order History Leak' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:55.094836+00:00"
+      },
+      "previous_hash": "c03338064c7fa32f85b60191bc57baa0b974296f1ef1a630ed53176182503134",
+      "hash": "b527e3a3ae2034ad1ea9118c8d174bceac1cfaf91ca5a660185c549b103a57e2"
+    },
+    {
+      "index": 279,
+      "timestamp": "2026-09-12T13:43:55.202515+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Zepto Quick-Commerce Order Exposure' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)",
+        "timestamp": "2026-09-12T13:43:55.201503+00:00"
+      },
+      "previous_hash": "b527e3a3ae2034ad1ea9118c8d174bceac1cfaf91ca5a660185c549b103a57e2",
+      "hash": "af91af31296cc06ebb0cc8377e7d115ce6a437bd3981bece502d54fdb678fbc8"
+    },
+    {
+      "index": 280,
+      "timestamp": "2026-09-12T13:43:55.282519+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Dunzo Logistics & User Dump' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)",
+        "timestamp": "2026-09-12T13:43:55.282519+00:00"
+      },
+      "previous_hash": "af91af31296cc06ebb0cc8377e7d115ce6a437bd3981bece502d54fdb678fbc8",
+      "hash": "845052df7f96633f84be7720e92f88cb4a88a69ecf35437dc2534c4bfe421993"
+    },
+    {
+      "index": 281,
+      "timestamp": "2026-09-12T13:43:55.380083+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Reliance Jio Subscriber KYC Exposure' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.380083+00:00"
+      },
+      "previous_hash": "845052df7f96633f84be7720e92f88cb4a88a69ecf35437dc2534c4bfe421993",
+      "hash": "b0d12a3f2e36a7631e5f384dff10c9d40e67351d1e209f1b3382148e19ef7bd3"
+    },
+    {
+      "index": 282,
+      "timestamp": "2026-09-12T13:43:55.536698+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Airtel India Telecom Subscriber Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:55.536698+00:00"
+      },
+      "previous_hash": "b0d12a3f2e36a7631e5f384dff10c9d40e67351d1e209f1b3382148e19ef7bd3",
+      "hash": "d009783da03cce9958a9837b1bd4c84eebb1d7ac628f2674f3a8e3cc7805dcbd"
+    },
+    {
+      "index": 283,
+      "timestamp": "2026-09-12T13:43:55.636912+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Air India (SITA Cyber Attack)' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.636912+00:00"
+      },
+      "previous_hash": "d009783da03cce9958a9837b1bd4c84eebb1d7ac628f2674f3a8e3cc7805dcbd",
+      "hash": "ce5d94bd676fa62d7849e1be760afd365ab61ac26a511b2663aacf0538100a63"
+    },
+    {
+      "index": 284,
+      "timestamp": "2026-09-12T13:43:55.706144+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'BigBasket India Customer Breach' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.706144+00:00"
+      },
+      "previous_hash": "ce5d94bd676fa62d7849e1be760afd365ab61ac26a511b2663aacf0538100a63",
+      "hash": "9cae977850b3e56bbdcaf09cac670a98b717ff8962def0ff1d7612ded8842f8a"
+    },
+    {
+      "index": 285,
+      "timestamp": "2026-09-12T13:43:55.788318+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Dominos India Order Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.788318+00:00"
+      },
+      "previous_hash": "9cae977850b3e56bbdcaf09cac670a98b717ff8962def0ff1d7612ded8842f8a",
+      "hash": "ec975b14a4e5314d8e996d7e218e3dee1c91a5d88298befff0676a18a610545a"
+    },
+    {
+      "index": 286,
+      "timestamp": "2026-09-12T13:43:55.912964+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Upstox India Stock Trader KYC Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.912964+00:00"
+      },
+      "previous_hash": "ec975b14a4e5314d8e996d7e218e3dee1c91a5d88298befff0676a18a610545a",
+      "hash": "234e08f2166414d19a6b49beee3bb1b424cb1607e31aa3fb280db530be59a956"
+    },
+    {
+      "index": 287,
+      "timestamp": "2026-09-12T13:43:55.998562+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Star Health Insurance Customer Leak' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:55.998562+00:00"
+      },
+      "previous_hash": "234e08f2166414d19a6b49beee3bb1b424cb1607e31aa3fb280db530be59a956",
+      "hash": "34d7b58921bea963d0476c2324b68a3b3cfec043c8d73e82870873fafd2bc04d"
+    },
+    {
+      "index": 288,
+      "timestamp": "2026-09-12T13:43:56.098146+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'MobiKwik Payment Wallet Breach' affecting target 'mvenky1208@gmail.com' (Severity: CRITICAL)",
+        "timestamp": "2026-09-12T13:43:56.098146+00:00"
+      },
+      "previous_hash": "34d7b58921bea963d0476c2324b68a3b3cfec043c8d73e82870873fafd2bc04d",
+      "hash": "23a56d42247647bc1bc1791dd7c0b9eff1557abef756a961b2f9d68df9e4c5c8"
+    },
+    {
+      "index": 289,
+      "timestamp": "2026-09-12T13:43:56.185073+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'GitHub Developer Email Scraping Dump' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)",
+        "timestamp": "2026-09-12T13:43:56.185073+00:00"
+      },
+      "previous_hash": "23a56d42247647bc1bc1791dd7c0b9eff1557abef756a961b2f9d68df9e4c5c8",
+      "hash": "55988b2f297acf6fa4d88d52843839c4b1d02678b3b1f2d6b37aa3dc586f8f5b"
+    },
+    {
+      "index": 290,
+      "timestamp": "2026-09-12T13:43:56.296949+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'StackOverflow Scraped Profile Archive' affecting target 'mvenky1208@gmail.com' (Severity: LOW)",
+        "timestamp": "2026-09-12T13:43:56.296949+00:00"
+      },
+      "previous_hash": "55988b2f297acf6fa4d88d52843839c4b1d02678b3b1f2d6b37aa3dc586f8f5b",
+      "hash": "9de61001f6e00375eba0fdc225c3943baefdc93f40523394c35cb80b9c73fc60"
+    },
+    {
+      "index": 291,
+      "timestamp": "2026-09-12T13:43:56.392648+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Coursera Learning Platform Leak' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)",
+        "timestamp": "2026-09-12T13:43:56.392648+00:00"
+      },
+      "previous_hash": "9de61001f6e00375eba0fdc225c3943baefdc93f40523394c35cb80b9c73fc60",
+      "hash": "60ae139880c9ac9ee09c3d40658a41c5481762cb65607c367e70c724ac01c73c"
+    },
+    {
+      "index": 292,
+      "timestamp": "2026-09-12T13:43:56.480512+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Udemy Student Credentials Leak' affecting target 'mvenky1208@gmail.com' (Severity: MEDIUM)",
+        "timestamp": "2026-09-12T13:43:56.480512+00:00"
+      },
+      "previous_hash": "60ae139880c9ac9ee09c3d40658a41c5481762cb65607c367e70c724ac01c73c",
+      "hash": "752c502adaace9c41c04a3b48af761af256695715eb2df39245984ee2e9d9e3c"
+    },
+    {
+      "index": 293,
+      "timestamp": "2026-09-12T13:43:56.580765+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Notion Workspace Public Index Exposure' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:56.580765+00:00"
+      },
+      "previous_hash": "752c502adaace9c41c04a3b48af761af256695715eb2df39245984ee2e9d9e3c",
+      "hash": "217b7a6c2426b572d85ef30643f3d8fe50b12d66ece5277b8e53db4b938148b8"
+    },
+    {
+      "index": 294,
+      "timestamp": "2026-09-12T13:43:56.663443+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Figma Design Profile Dump' affecting target 'mvenky1208@gmail.com' (Severity: LOW)",
+        "timestamp": "2026-09-12T13:43:56.663443+00:00"
+      },
+      "previous_hash": "217b7a6c2426b572d85ef30643f3d8fe50b12d66ece5277b8e53db4b938148b8",
+      "hash": "c19ab49bcfee5dc76746d3a325493d2da3760144aeb2d697ba4d7d30992751fa"
+    },
+    {
+      "index": 295,
+      "timestamp": "2026-09-12T13:43:56.743839+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'LinkedIn 700M Scraped Database' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:56.743839+00:00"
+      },
+      "previous_hash": "c19ab49bcfee5dc76746d3a325493d2da3760144aeb2d697ba4d7d30992751fa",
+      "hash": "61fce2b482133766b9de6564863dd8900741d38ad48310b06decb15f79444883"
+    },
+    {
+      "index": 296,
+      "timestamp": "2026-09-12T13:43:56.831737+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Twitter (X) 200M Email Dump' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:56.831737+00:00"
+      },
+      "previous_hash": "61fce2b482133766b9de6564863dd8900741d38ad48310b06decb15f79444883",
+      "hash": "ce5456c1b41cc9ef527fba39f1bdc9e1e790a1100944a700d378ae69e43d3891"
+    },
+    {
+      "index": 297,
+      "timestamp": "2026-09-12T13:43:56.911653+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Adobe Systems Account Breach' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:56.911653+00:00"
+      },
+      "previous_hash": "ce5456c1b41cc9ef527fba39f1bdc9e1e790a1100944a700d378ae69e43d3891",
+      "hash": "4aafe61cd660d2e16c4258ca70785972ff8763bc6f5e423ff28c49a3da38d0c3"
+    },
+    {
+      "index": 298,
+      "timestamp": "2026-09-12T13:43:57.004711+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'Canva Graphic Design Breach' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:43:57.004711+00:00"
+      },
+      "previous_hash": "4aafe61cd660d2e16c4258ca70785972ff8763bc6f5e423ff28c49a3da38d0c3",
+      "hash": "fca1d8f459c23e657023d6327a4c5f4fd84c54964559c426cd36a6642e3a89b9"
+    },
+    {
+      "index": 299,
+      "timestamp": "2026-09-12T13:43:57.074279+00:00",
+      "action": "SCAN_COMPLETED",
+      "data": {
+        "message": "Full privacy scan finished across 40+ major Indian & Global breach indices. Scanned 3 targets. Found 106 breach records. Score: 0/100 (CRITICAL_EXPOSURE)",
+        "timestamp": "2026-09-12T13:43:57.074279+00:00"
+      },
+      "previous_hash": "fca1d8f459c23e657023d6327a4c5f4fd84c54964559c426cd36a6642e3a89b9",
+      "hash": "ada6b474e14f93c7ba8fc70697072646c5fdc1246d32bf5b3806fd1d1bee075a"
+    },
+    {
+      "index": 300,
+      "timestamp": "2026-09-12T13:44:16.678323+00:00",
+      "action": "FREE_AI_AGENTIC_START",
+      "data": {
+        "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: mvenky1208@gmail.com (DPDP).",
+        "timestamp": "2026-09-12T13:44:16.678323+00:00"
+      },
+      "previous_hash": "ada6b474e14f93c7ba8fc70697072646c5fdc1246d32bf5b3806fd1d1bee075a",
+      "hash": "90b5fe2cb26ca20dc33ab059ea316c7e44bec55dd0befb28617783cda4a0a5b1"
+    },
+    {
+      "index": 301,
+      "timestamp": "2026-09-12T13:44:20.376503+00:00",
+      "action": "LEAK_DETECTED",
+      "data": {
+        "message": "Data leak detected: 'FREE AI MODEL DISCOVERY: Credential Hash Leak Feed' affecting target 'mvenky1208@gmail.com' (Severity: HIGH)",
+        "timestamp": "2026-09-12T13:44:20.373933+00:00"
+      },
+      "previous_hash": "90b5fe2cb26ca20dc33ab059ea316c7e44bec55dd0befb28617783cda4a0a5b1",
+      "hash": "079a04a833bf5106073a750177bec5cad55bdc6f44de9cb93b85486026d8133e"
+    },
+    {
+      "index": 302,
+      "timestamp": "2026-09-12T13:44:20.473284+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID 59913cda for 'pwnedpasswords.api' under DPDP",
+        "timestamp": "2026-09-12T13:44:20.473284+00:00"
+      },
+      "previous_hash": "079a04a833bf5106073a750177bec5cad55bdc6f44de9cb93b85486026d8133e",
+      "hash": "044c256a2c33a812193f4fc729138cddd445fc70d1a2aedb508194553d1fbf84"
+    },
+    {
+      "index": 303,
+      "timestamp": "2026-09-12T13:44:20.583472+00:00",
+      "action": "RTBF_STATUS_CHANGE",
+      "data": {
+        "message": "RTBF Request 59913cda updated to status 'DISPATCHED'",
+        "timestamp": "2026-09-12T13:44:20.583472+00:00"
+      },
+      "previous_hash": "044c256a2c33a812193f4fc729138cddd445fc70d1a2aedb508194553d1fbf84",
+      "hash": "79a9122aa435c11e2642555f30c5e8464fe8e44bbc772e23c6998f868b51f0e2"
+    },
+    {
+      "index": 304,
+      "timestamp": "2026-09-12T13:44:20.620836+00:00",
+      "action": "EMAIL_DISPATCHED",
+      "data": {
+        "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5244b35ec6496d73316206f6",
+        "timestamp": "2026-09-12T13:44:20.620836+00:00"
+      },
+      "previous_hash": "79a9122aa435c11e2642555f30c5e8464fe8e44bbc772e23c6998f868b51f0e2",
+      "hash": "f41ff5842c0ca72063f639d745a3a102b498e766b67f42970d8be15a4a0019e5"
+    },
+    {
+      "index": 305,
+      "timestamp": "2026-09-12T13:44:20.795739+00:00",
+      "action": "FREE_AI_AGENTIC_COMPLETE",
+      "data": {
+        "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices.",
+        "timestamp": "2026-09-12T13:44:20.795739+00:00"
+      },
+      "previous_hash": "f41ff5842c0ca72063f639d745a3a102b498e766b67f42970d8be15a4a0019e5",
+      "hash": "d032101fc5f59a5cfa625b948f96af179c8e06f268ed5ce42481ec729edc28ce"
+    },
+    {
+      "index": 306,
+      "timestamp": "2026-09-12T13:44:37.666401+00:00",
+      "action": "FREE_AI_AGENTIC_START",
+      "data": {
+        "message": "Free AI Agentic Engine launched (HuggingFace/Ollama LLM). Target: mvenky1208@gmail.com (DPDP).",
+        "timestamp": "2026-09-12T13:44:37.666401+00:00"
+      },
+      "previous_hash": "d032101fc5f59a5cfa625b948f96af179c8e06f268ed5ce42481ec729edc28ce",
+      "hash": "6184fc5c110b49c4e90b7ed8e59c73832dc1017c51fef37927b710d521cbdfe3"
+    },
+    {
+      "index": 307,
+      "timestamp": "2026-09-12T13:44:42.301097+00:00",
+      "action": "RTBF_CREATED",
+      "data": {
+        "message": "Created RTBF Legal Request ID 2fa24c79 for 'pwnedpasswords.api' under DPDP",
+        "timestamp": "2026-09-12T13:44:42.301097+00:00"
+      },
+      "previous_hash": "6184fc5c110b49c4e90b7ed8e59c73832dc1017c51fef37927b710d521cbdfe3",
+      "hash": "8ea43b443410b88a889a77c23c2e7eb866530da85dff526f067b8ca4901fbc9d"
+    },
+    {
+      "index": 308,
+      "timestamp": "2026-09-12T13:44:42.356227+00:00",
+      "action": "RTBF_STATUS_CHANGE",
+      "data": {
+        "message": "RTBF Request 2fa24c79 updated to status 'DISPATCHED'",
+        "timestamp": "2026-09-12T13:44:42.356227+00:00"
+      },
+      "previous_hash": "8ea43b443410b88a889a77c23c2e7eb866530da85dff526f067b8ca4901fbc9d",
+      "hash": "cf16d172a7ddc03d2df088d80d3dc0372461986779f8d5295baa440d7eee14c0"
+    },
+    {
+      "index": 309,
+      "timestamp": "2026-09-12T13:44:42.377117+00:00",
+      "action": "EMAIL_DISPATCHED",
+      "data": {
+        "message": "Sent DPDP/GDPR Legal Notice to DPO (privacy@pwnedpasswords.api) for 'pwnedpasswords.api'. Verification Token: 5244b35ec6496d73316206f6",
+        "timestamp": "2026-09-12T13:44:42.377117+00:00"
+      },
+      "previous_hash": "cf16d172a7ddc03d2df088d80d3dc0372461986779f8d5295baa440d7eee14c0",
+      "hash": "f00a074df00a7be05c9dbb228161ae080177fd7005063d7dcc23ffc1324016b8"
+    },
+    {
+      "index": 310,
+      "timestamp": "2026-09-12T13:44:42.468722+00:00",
+      "action": "FREE_AI_AGENTIC_COMPLETE",
+      "data": {
+        "message": "Free AI Model Agentic cycle completed. Evaluated threats & dispatched 1 legal erasure notices.",
+        "timestamp": "2026-09-12T13:44:42.467740+00:00"
+      },
+      "previous_hash": "f00a074df00a7be05c9dbb228161ae080177fd7005063d7dcc23ffc1324016b8",
+      "hash": "f47d905475e0cf785ef5bf369393e7f4f5365fcb477eaa1ec6ab013f896973bd"
+    },
+    {
+      "index": 311,
+      "timestamp": "2026-09-12T13:46:55.652607+00:00",
+      "action": "ZK_CREDENTIAL_ISSUED",
+      "data": {
+        "message": "Issued ZK Verifiable Credential for 'AgeOver18' (Commitment: b8a9d8cae399d90e...)",
+        "timestamp": "2026-09-12T13:46:55.652607+00:00"
+      },
+      "previous_hash": "f47d905475e0cf785ef5bf369393e7f4f5365fcb477eaa1ec6ab013f896973bd",
+      "hash": "c233f934a34318876baec45085f7eb9a9ae636e207ef99942edf5fa54c3ca1c9"
     }
   ]
 }

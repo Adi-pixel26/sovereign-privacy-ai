@@ -122,12 +122,14 @@ async def resolve_leak(leak_id: str):
         raise HTTPException(status_code=404, detail="Leak not found")
     return storage.get_leaks()
 
-@app.post("/api/leaks/resolve-all")
-async def resolve_all_leaks():
-    leaks = storage.get_leaks()
-    for leak in leaks:
-        storage.update_leak_status(leak["id"], "RESOLVED")
-    return storage.get_leaks()
+@app.post("/api/leaks/clear-all")
+async def clear_all_leaks():
+    raw = storage._load_raw()
+    raw["leaks"] = []
+    raw["rtbf_requests"] = []
+    storage._save_raw(raw)
+    storage.log_agent_action("LEAKS_CLEARED", "Cleared all old breach records for fresh scan.")
+    return {"status": "CLEARED", "leaks": []}
 
 @app.post("/api/pii/scan-text")
 async def scan_text_pii(req: TextScanRequest):
